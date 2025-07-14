@@ -1,0 +1,36 @@
+# Ignore virtual environment folder
+../.venv/
+venv/
+ENV/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore logs and outputs
+*.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore model files (optional if size is large)
+*.h5
+*.pb
+
+# Ignore Streamlit's auto-generated folders
+.streamlit/
+
+
+
+# Ignore compiled files and system files
+*.so
+*.dll
+*.exe
+
+# Ignore credentials
+app/credentials.toml
